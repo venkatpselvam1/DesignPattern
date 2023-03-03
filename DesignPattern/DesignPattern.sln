@@ -69,6 +69,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_PrototypeDesignPatternU
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_BuilderDesignPattern", "001_BuilderDesignPattern\001_BuilderDesignPattern.csproj", "{77547638-4292-406B-9CC6-BC086A2C2AAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_MemntoDesignPattern", "001_MemntoDesignPattern\001_MemntoDesignPattern.csproj", "{50A31B50-6BC3-4111-80C8-E94967318740}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +97,10 @@ Global
 		{77547638-4292-406B-9CC6-BC086A2C2AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77547638-4292-406B-9CC6-BC086A2C2AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77547638-4292-406B-9CC6-BC086A2C2AAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50A31B50-6BC3-4111-80C8-E94967318740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A31B50-6BC3-4111-80C8-E94967318740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50A31B50-6BC3-4111-80C8-E94967318740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50A31B50-6BC3-4111-80C8-E94967318740}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -129,6 +135,7 @@ Global
 		{F6412D7B-9D46-4A88-B5F2-8CD420FE5B18} = {5016C83C-B1A7-46A2-A92A-03D0813742AF}
 		{B648FE7A-4F73-466F-A647-6062C109D9CF} = {5016C83C-B1A7-46A2-A92A-03D0813742AF}
 		{77547638-4292-406B-9CC6-BC086A2C2AAB} = {22D442C9-8C92-4DF9-A986-EA701A0D9047}
+		{50A31B50-6BC3-4111-80C8-E94967318740} = {14B7DBC8-F8CD-4437-9C8F-5E332C9F0915}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9F7AFF82-47AB-4F04-8A14-224AA2D32917}
