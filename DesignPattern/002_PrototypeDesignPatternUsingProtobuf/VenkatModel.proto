@@ -1,0 +1,18 @@
+﻿// [START declaration]
+syntax = "proto3";
+package PrototypeDesignPatternUsingProtobuf;
+
+option csharp_namespace = "_002_PrototypeDesignPatternUsingProtobuf";
+
+// [START messages]
+message ComplexModel {
+  int32 a = 1;
+  int32 b = 2;
+  int32 c = 3;
+  int32 d = 4;  // Unique ID number for this person.
+  string w = 5;
+  string x = 6;
+  string y = 7;
+  string z = 8;
+}
+// [END messages]
