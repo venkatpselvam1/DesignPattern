@@ -25,7 +25,15 @@ namespace _001_FlyWeightDesignPattern
             db.AddEntry(2, "abcd");
             db.AddEntry(3, "abcd");
             db.AddEntry(4, "abcd");
-            //in actual SQL DB, for each row for this string entry will cost 4 char = 4 
+            //in actual SQL DB, for each(4) row for this string entry will cost 4 char = 4 (row) * 4(char) * 2(byte/char) = 32 bytes
+            Console.WriteLine("Total Size " +  db.getTotalSize());
+            var dbWithFlyweight = new DatabaseProviderWithFlyWeight();
+            dbWithFlyweight.AddEntry(1, "abcd");
+            dbWithFlyweight.AddEntry(2, "abcd");
+            dbWithFlyweight.AddEntry(3, "abcd");
+            dbWithFlyweight.AddEntry(4, "abcd");
+            //in actual SQL DB, for each(4) row  for this string entry will cost 4 char but we can ignore the duplicate entry = 1 (unique row) * 4(char) * 2(byte/char) = 8 bytes
+            Console.WriteLine("Total Size " + dbWithFlyweight.getTotalSize());
         }
     }
 }
