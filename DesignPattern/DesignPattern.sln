@@ -77,6 +77,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_FlyWeightDesignPattern"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_MediatorDesignPattern", "001_MediatorDesignPattern\001_MediatorDesignPattern.csproj", "{B9B4C64F-4ED6-4ABB-8721-BC13CF75F96D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_NullObjectDesignPattern", "011_NullObjectDesignPattern\001_NullObjectDesignPattern.csproj", "{330A4463-BB62-4739-960B-EF963CF0F82F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -119,6 +121,10 @@ Global
 		{B9B4C64F-4ED6-4ABB-8721-BC13CF75F96D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9B4C64F-4ED6-4ABB-8721-BC13CF75F96D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9B4C64F-4ED6-4ABB-8721-BC13CF75F96D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{330A4463-BB62-4739-960B-EF963CF0F82F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{330A4463-BB62-4739-960B-EF963CF0F82F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{330A4463-BB62-4739-960B-EF963CF0F82F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{330A4463-BB62-4739-960B-EF963CF0F82F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -157,6 +163,7 @@ Global
 		{17DCAB83-28D9-491E-B94C-CB88305F08B1} = {96EE0B82-80DE-43AA-909F-97EE9E03F826}
 		{55F9FA1A-773D-4EC3-A5CA-5FEC1B063B21} = {12D9890B-A417-4501-ACC0-BA25F65C17E6}
 		{B9B4C64F-4ED6-4ABB-8721-BC13CF75F96D} = {7DC9815A-D9C4-4D84-BEE8-56F63E2090A1}
+		{330A4463-BB62-4739-960B-EF963CF0F82F} = {173250FA-08E6-4BEE-8960-61429C84F86A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9F7AFF82-47AB-4F04-8A14-224AA2D32917}
