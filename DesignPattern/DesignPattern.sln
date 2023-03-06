@@ -49,7 +49,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "017_MementoDesignPattern", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "018_MediatorDesignPattern", "018_MediatorDesignPattern", "{7DC9815A-D9C4-4D84-BEE8-56F63E2090A1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "019_NullDesignPattern", "019_NullDesignPattern", "{173250FA-08E6-4BEE-8960-61429C84F86A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "019_NullObjectDesignPattern", "019_NullObjectDesignPattern", "{173250FA-08E6-4BEE-8960-61429C84F86A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "022_StrategyDesignPattern", "022_StrategyDesignPattern", "{8FFD25EE-B0A2-4D53-BD6D-B8DF7F4CCCE9}"
 EndProject
@@ -74,6 +74,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_ProxyDesignPattern", "001_ProxyDesignPattern\001_ProxyDesignPattern.csproj", "{17DCAB83-28D9-491E-B94C-CB88305F08B1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_FlyWeightDesignPattern", "001_FlyWeightDesignPattern\001_FlyWeightDesignPattern.csproj", "{55F9FA1A-773D-4EC3-A5CA-5FEC1B063B21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_MediatorDesignPattern", "001_MediatorDesignPattern\001_MediatorDesignPattern.csproj", "{B9B4C64F-4ED6-4ABB-8721-BC13CF75F96D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -113,6 +115,10 @@ Global
 		{55F9FA1A-773D-4EC3-A5CA-5FEC1B063B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55F9FA1A-773D-4EC3-A5CA-5FEC1B063B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55F9FA1A-773D-4EC3-A5CA-5FEC1B063B21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9B4C64F-4ED6-4ABB-8721-BC13CF75F96D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9B4C64F-4ED6-4ABB-8721-BC13CF75F96D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9B4C64F-4ED6-4ABB-8721-BC13CF75F96D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9B4C64F-4ED6-4ABB-8721-BC13CF75F96D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -150,6 +156,7 @@ Global
 		{50A31B50-6BC3-4111-80C8-E94967318740} = {14B7DBC8-F8CD-4437-9C8F-5E332C9F0915}
 		{17DCAB83-28D9-491E-B94C-CB88305F08B1} = {96EE0B82-80DE-43AA-909F-97EE9E03F826}
 		{55F9FA1A-773D-4EC3-A5CA-5FEC1B063B21} = {12D9890B-A417-4501-ACC0-BA25F65C17E6}
+		{B9B4C64F-4ED6-4ABB-8721-BC13CF75F96D} = {7DC9815A-D9C4-4D84-BEE8-56F63E2090A1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9F7AFF82-47AB-4F04-8A14-224AA2D32917}
